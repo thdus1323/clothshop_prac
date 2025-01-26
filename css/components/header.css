@@ -1,0 +1,39 @@
+.header__top{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px; 
+    border-bottom: 1px solid rgba(0, 0, 0,0.2);
+}
+
+.header__nav-box{
+    width: 33%;
+    /* border: 1px solid red; */
+}
+
+.header__title{
+    width: 33%;
+    /* border: 1px solid purple; */
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.header__list-box{
+    display: flex;
+    /* border: 1px solid green; */
+    height: 100%;
+    align-items: center;
+}
+
+.header__menu{
+    display: flex;
+    /* border: 1px solid blue; */
+    width: 33%;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+.header__content{
+    margin: 0 15px;
+}
