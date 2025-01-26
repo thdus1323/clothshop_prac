@@ -41,15 +41,15 @@
    
 }
 
-.header__user-point{
-    background-color: gray;
-    position: absolute;
-    bottom: -30px;
-    left: -20px;
-    border-radius: 2px;
-    padding: 3px;
-    margin: 3px;
+.header__user-badge{
+    background-color: #d5d2cb;
     color: white;
+    bottom: -30px;
+    border-radius: 5px;
+    padding: 3px 6px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 
 }
 
