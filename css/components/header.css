@@ -35,5 +35,53 @@
 }
 
 .header__content{
-    margin: 0 15px;
+    margin: 0 20px;
+    /* border: 1px solid blue; */
+    position: relative;
+   
+}
+
+.header__user-point{
+    background-color: gray;
+    position: absolute;
+    bottom: -30px;
+    left: -20px;
+    border-radius: 2px;
+    padding: 3px;
+    margin: 3px;
+    color: white;
+
+}
+
+.header__cart-badge{
+    
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+    padding: 2px;
+    position: absolute;
+    top: -13px;
+    right: -13px;
+}
+
+.header__content--badge-box{
+    position:relative;
+}
+
+.header__cart-badge span{
+    color: white;
+
+}
+
+/* 아래 헤더 */
+.header__category{
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: center;
+    padding: 20px 0;
+
 }
