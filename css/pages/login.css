@@ -9,6 +9,7 @@
     flex-direction: column;
     padding: 0 500px;
     padding-top: 100px;
+    align-items: center;
   
     
 }
@@ -16,6 +17,7 @@
 .loginForm{
     padding: 70px;
     border: 1px solid black;
+    width: 500px;
 }
 
 .login__title{

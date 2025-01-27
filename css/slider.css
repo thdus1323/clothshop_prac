@@ -27,12 +27,12 @@ color: white;
 }
 
 .main__slider-image-container {
-    width: 300px;
-    height: 400px;
+    width: 700px;
+    height: 500px;
     /* border: 1px solid blue; */
     overflow: hidden;
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
     margin: 15px 0;;
 }
 
