@@ -9,6 +9,13 @@
     flex-direction: column;
     padding: 0 500px;
     padding-top: 100px;
+  
+    
+}
+
+.loginForm{
+    padding: 70px;
+    border: 1px solid black;
 }
 
 .login__title{
@@ -41,6 +48,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
+    width: 100%;
 }
 
 .login__btn svg{
