@@ -6,6 +6,8 @@
     padding: 30px;
     background-color: #4c5a4a;
     position: relative;
+    height: 80vh;
+    box-sizing: border-box;
 }
 
 .main__slider-btn i{
